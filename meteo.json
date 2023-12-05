@@ -8,7 +8,7 @@
         "indiceUV": 5
     },
     {
-        "nom": "Paris",
+        "nom": "paris",
         "temperature": 15,
         "conditionsMeteo": "Ensoleillé",
         "humidite": 47,
@@ -16,7 +16,7 @@
         "indiceUV": 8
     },
     {
-        "nom": "Marseille",
+        "nom": "marseille",
         "temperature": 27,
         "conditionsMeteo": "Nuageux",
         "humidite": 65,
@@ -24,7 +24,7 @@
         "indiceUV": 3
     },
     {
-        "nom": "Lyon",
+        "nom": "lyon",
         "temperature": 8,
         "conditionsMeteo": "Pluvieux",
         "humidite": 92,
@@ -32,7 +32,7 @@
         "indiceUV": 2
     },
     {
-        "nom": "Toulouse",
+        "nom": "toulouse",
         "temperature": 20,
         "conditionsMeteo": "Ensoleillé",
         "humidite": 38,
@@ -40,7 +40,7 @@
         "indiceUV": 7
     },
     {
-        "nom": "Nice",
+        "nom": "nice",
         "temperature": 25,
         "conditionsMeteo": "Nuageux",
         "humidite": 56,
@@ -48,7 +48,7 @@
         "indiceUV": 4
     },
     {
-        "nom": "Nantes",
+        "nom": "nantes",
         "temperature": 12,
         "conditionsMeteo": "Pluvieux",
         "humidite": 78,
@@ -56,7 +56,7 @@
         "indiceUV": 1
     },
     {
-        "nom": "Montpellier",
+        "nom": "montpellier",
         "temperature": 22,
         "conditionsMeteo": "Ensoleillé",
         "humidite": 43,
@@ -64,7 +64,7 @@
         "indiceUV": 6
     },
     {
-        "nom": "Strasbourg",
+        "nom": "strasbourg",
         "temperature": 5,
         "conditionsMeteo": "Pluvieux",
         "humidite": 88,
@@ -80,7 +80,7 @@
         "indiceUV": 3
     },
     {
-        "nom": "Lille",
+        "nom": "lille",
         "temperature": 0,
         "conditionsMeteo": "Pluvieux",
         "humidite": 90,

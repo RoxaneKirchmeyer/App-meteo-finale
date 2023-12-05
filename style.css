@@ -1,17 +1,22 @@
 body {
-    /* background-image: url("img/sam-schooler-E9aetBe2w40-unsplash.jpg"); */
-    background: rgb(89, 153, 246);
-    background: linear-gradient(0deg, rgb(39, 122, 246) 0%, rgba(185, 215, 255, 1) 100%);
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ width: 100vw;
+ background-color: #D9DBF1;
+
+ 
+   
 }
 
 button {
     border-radius: 10px;
-    font-family: 'Melted Monster', Arial, Helvetica, sans-serif;
+ 
     width: auto;
     height: 50px;
     font-size: 20px;
-    color: rgb(255, 255, 255);
-    background-image: url(img/istockphoto-113494458-612x612.jpg);
+    color: black;
+background-color: white;
     background-size: cover;
 }
 
@@ -20,17 +25,17 @@ h1 {
     margin: auto;
     width: 400px;
     text-align: center;
-    color: rgb(0, 0, 0);
-    /* background-color: #f5c44f; */
-    font-family: 'Roboto', sans-serif;
-    /* -webkit-text-stroke-color: #ffffff;
-    -webkit-text-stroke-width: 1px; */
+    font-weight:900 ;
+    color: #f5c44f;
+    border-radius: 20px;
+    background-color: white;
+ 
 }
 
 .france {
     height: 100vh;
     width: 80vw;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .france img {
@@ -52,12 +57,14 @@ h1 {
 
 .contenu {
     background-color: white;
+    border-radius: 10px;
+  
     width: 347px;
     height: 370px;
     position: relative;
     top: -820px;
     left: 370px;
-    border: black 1px solid;
+    border:  3px solid #f5c44f;
 }
 
 .contenu p {
@@ -123,9 +130,10 @@ button {
 }
 
 .nuage {
-    width: 350px;
-    height: 350px;
+    width: 550px;
+    height: 450px;
     position: absolute;
-    top: 570px;
-    left: 20px;
+    top: 490px;
+    left: -55px;
 }
+
