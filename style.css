@@ -30,6 +30,7 @@ h1 {
 .france {
     height: 100vh;
     width: 80vw;
+    filter: grayscale(100%);
 }
 
 .france img {
@@ -47,7 +48,6 @@ h1 {
 
 .total {
     display: flex;
-
 }
 
 .contenu {
@@ -64,7 +64,8 @@ h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     white-space: pre-line;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
 }
 
 button {

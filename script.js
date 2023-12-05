@@ -28,34 +28,34 @@ divContenu.appendChild(infoMeteo)
 
 function afficherContenu(data, type) {
     if (type === 'paris') {
-        infoMeteo.textContent = (`La ville de ${data[1].nom} a une température de ${data[1].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[1].nom}, nous observons un ciel ${data[1].conditionsMeteo} avec une température actuelle de  ${data[1].temperature} degrés Celsius. L'humidité est de ${data[1].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[1].precipitations} mm. L'indice UV sera de ${data[1].indiceUV}`)
     }
     else if (type === 'lille') {
-        infoMeteo.textContent = (`La ville de ${data[10].nom} a une température de ${data[10].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[10].nom}, nous observons un ciel ${data[10].conditionsMeteo} avec une température actuelle de  ${data[10].temperature} degrés Celsius. L'humidité est de ${data[10].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[10].precipitations} mm. L'indice UV sera de ${data[10].indiceUV}`)
     }
     else if (type === 'bordeaux') {
-        infoMeteo.textContent = (`La ville de ${data[9].nom} a une température de ${data[9].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[9].nom}, nous observons un ciel ${data[9].conditionsMeteo} avec une température actuelle de  ${data[9].temperature} degrés Celsius. L'humidité est de ${data[9].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[9].precipitations} mm. L'indice UV sera de ${data[9].indiceUV}`)
     }
     else if (type === 'strasbourg') {
-        infoMeteo.textContent = (`La ville de ${data[8].nom} a une température de ${data[8].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[8].nom}, nous observons un ciel ${data[8].conditionsMeteo} avec une température actuelle de  ${data[8].temperature} degrés Celsius. L'humidité est de ${data[8].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[8].precipitations} mm. L'indice UV sera de ${data[8].indiceUV}`)
     }
     else if (type === 'montpellier') {
-        infoMeteo.textContent = (`La ville de ${data[7].nom} a une température de ${data[7].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[7].nom}, nous observons un ciel ${data[7].conditionsMeteo} avec une température actuelle de  ${data[7].temperature} degrés Celsius. L'humidité est de ${data[7].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[7].precipitations} mm. L'indice UV sera de ${data[7].indiceUV}`)
     }
     else if (type === 'nantes') {
-        infoMeteo.textContent = (`La ville de ${data[6].nom} a une température de ${data[6].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[6].nom}, nous observons un ciel ${data[6].conditionsMeteo} avec une température actuelle de  ${data[6].temperature} degrés Celsius. L'humidité est de ${data[6].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[6].precipitations} mm. L'indice UV sera de ${data[6].indiceUV}`)
     }
     else if (type === 'nice') {
-        infoMeteo.textContent = (`La ville de ${data[5].nom} a une température de ${data[5].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[5].nom}, nous observons un ciel ${data[5].conditionsMeteo} avec une température actuelle de  ${data[5].temperature} degrés Celsius. L'humidité est de ${data[5].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[5].precipitations} mm. L'indice UV sera de ${data[5].indiceUV}`)
     }
     else if (type === 'toulouse') {
-        infoMeteo.textContent = (`La ville de ${data[4].nom} a une température de ${data[4].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[4].nom}, nous observons un ciel ${data[4].conditionsMeteo} avec une température actuelle de  ${data[4].temperature} degrés Celsius. L'humidité est de ${data[4].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[4].precipitations} mm. L'indice UV sera de ${data[4].indiceUV}`)
     }
     else if (type === 'lyon') {
-        infoMeteo.textContent = (`La ville de ${data[3].nom} a une température de ${data[3].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[3].nom}, nous observons un ciel ${data[3].conditionsMeteo} avec une température actuelle de  ${data[3].temperature} degrés Celsius. L'humidité est de ${data[3].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[3].precipitations} mm. L'indice UV sera de ${data[3].indiceUV}`)
     }
     else if (type === 'marseille') {
-        infoMeteo.textContent = (`La ville de ${data[2].nom} a une température de ${data[2].temperature} degré`)
+        infoMeteo.textContent = (`Bonjour à tous, bienvenue pour votre bulletin météo. Aujourd'hui à ${data[2].nom}, nous observons un ciel ${data[2].conditionsMeteo} avec une température actuelle de  ${data[2].temperature} degrés Celsius. L'humidité est de ${data[2].humidite} % et nous prévoyons des précipitations de l'ordre de ${data[2].precipitations} mm. L'indice UV sera de ${data[2].indiceUV}`)
     }
 }
 
@@ -73,4 +73,16 @@ buttonsVilles.forEach(ville => {
     })
 })
 
+// selectionner All bouton {
 
+    // buttonsVilles.forEach(villes => {
+
+    // ajouter un evenement au bouton qui ouvre la div d'infos
+
+        // creer une div d'infos de la ville correspondante avec un if (id button = nom du fetch)
+            // dans cette divInfoMeteos mettre les infos de la ville correspondante avec le texte evelyne
+            // changer les valeurs des données météos en fonction de la ville
+
+        // si on reclique : supprime la div
+
+//})}
