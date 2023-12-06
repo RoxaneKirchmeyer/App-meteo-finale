@@ -36,7 +36,8 @@ buttonsVilles.forEach(ville => {
          météo. Aujourd'hui à ${villeSelectionnee.nom.toUpperCase()}, nous 
          observons un ciel ${villeSelectionnee.conditionsMeteo.toLowerCase()} avec une 
          température actuelle de ${villeSelectionnee.temperature} degrés. 
-         L'humidité est de ${villeSelectionnee.humidite} % et nous prévoyons des précipitations de l'ordre de ${villeSelectionnee.precipitations} mm. 
+         L'humidité est de ${villeSelectionnee.humidite} % et nous prévoyons des 
+         précipitations de l'ordre de ${villeSelectionnee.precipitations} mm. 
          L'indice UV sera de ${villeSelectionnee.indiceUV}`;
                 }
             }
